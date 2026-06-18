@@ -16,7 +16,7 @@ app.get("/api/health", (req, res) => {
 
 // Root route
 app.get("/", (req, res) => {
-  res.send("Welcome to Backend API 🚀");
+  res.send("Welcome to Backend API v2🚀");
 });
 
 // Example test route
